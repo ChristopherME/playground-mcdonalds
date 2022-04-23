@@ -30,7 +30,7 @@ fun MealsItems(
     onMealClicked: (meal: MealUi) -> Unit,
     modifier: Modifier = Modifier
 ) {
-    LazyRow(modifier = modifier) {
+    LazyRow(modifier = modifier.padding(start = 8.dp)) {
         items(meals) { meal ->
             MealItem(
                 meal = meal,
