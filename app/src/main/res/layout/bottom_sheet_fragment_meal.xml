@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_m">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/mealImage"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/meal_width"
+        tools:background="@drawable/background_menu" />
+
+    <TextView
+        android:id="@+id/mealName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/padding_r"
+        android:gravity="center"
+        android:paddingStart="@dimen/padding_m"
+        android:paddingEnd="@dimen/padding_m"
+        android:textAppearance="?textAppearanceHeadline6"
+        tools:text="@string/app_name" />
+
+    <TextView
+        android:id="@+id/mealPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/padding_r"
+        android:background="@drawable/background_meal_price"
+        android:paddingStart="@dimen/padding_sm"
+        android:paddingTop="@dimen/padding_xs"
+        android:paddingEnd="@dimen/padding_sm"
+        android:paddingBottom="@dimen/padding_xs"
+        android:textAppearance="?textAppearanceBody1"
+        tools:text="$20" />
+
+    <TextView
+        android:id="@+id/mealDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/padding_r"
+        android:textAppearance="?textAppearanceBody1"
+        tools:text="@tools:sample/lorem/random" />
+
+
+</LinearLayout>
