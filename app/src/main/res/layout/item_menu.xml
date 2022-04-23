@@ -20,7 +20,6 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/padding_s"
         android:orientation="horizontal"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-        tools:listitem="@layout/item_meal" />
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
 
 </LinearLayout>

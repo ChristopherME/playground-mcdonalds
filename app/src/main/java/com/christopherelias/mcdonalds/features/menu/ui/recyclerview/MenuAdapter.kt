@@ -36,8 +36,5 @@ class MenuHolder(
 ) : RecyclerView.ViewHolder(binding.root) {
     fun bind(menu: MenuUi) {
         binding.menuTitle.text = menu.title
-        binding.recyclerViewMeals.adapter = MealAdapter(menu.meals) {
-            onMealClicked(it)
-        }
     }
 }

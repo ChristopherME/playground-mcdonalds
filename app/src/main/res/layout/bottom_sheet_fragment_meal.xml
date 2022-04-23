@@ -10,7 +10,7 @@
         android:id="@+id/mealImage"
         android:layout_width="match_parent"
         android:layout_height="@dimen/meal_width"
-        tools:background="@drawable/background_menu" />
+        tools:background="@drawable/background_meal_price" />
 
     <TextView
         android:id="@+id/mealName"
