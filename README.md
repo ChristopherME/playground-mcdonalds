@@ -1,6 +1,6 @@
-# McDonalds Menu
-<img src="readme/mcdonalds.gif" alt="McDonald Sample" height="50%"/>
-App that displays the McDonalds menu. Check this branch for Compose implementation.
+# McDonalds Menu - Compose :rocket:
+<img src="readme/mcdonalds.gif" alt="McDonald Sample"/>
+App that displays the McDonalds menu.
 
 ## Package Structure and Software Design Patterns
 
@@ -16,8 +16,7 @@ For provide dependencies it uses "manual" Dependency Injection as it is a small 
 - Application entirely written in [Kotlin](https://kotlinlang.org)
 - Asynchronous processing using [Coroutines](https://kotlin.github.io/kotlinx.coroutines/)
 - HttpClient [Retrofit](https://github.com/square/retrofit)
-- State stream management using [StateFlow](https://developer.android.com/kotlin/flow/stateflow-and-sharedflow)
-- Jetpack [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel)
+- UI State stream management using [StateFlow](https://developer.android.com/kotlin/flow/stateflow-and-sharedflow)
 - Uses [JUnit4](https://developer.android.com/training/testing/junit-rules) for unit testing
 - Uses [Turbine](https://github.com/cashapp/turbine) for testing flows
 - Uses [Mockk](https://mockk.io) for mock behaviour while unit testing
